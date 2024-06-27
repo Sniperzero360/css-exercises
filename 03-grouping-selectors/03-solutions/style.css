@@ -1,0 +1,20 @@
+/*
+This CSS file adds style declarations using multiple class attributes for similarly styled text elements in the body of index.html, while also having the individual class attributes for both of them.
+*/
+
+/* This multiple class attribute declaration styles the similar properties of the elements being styled*/
+.inverted
+.fancy {
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-size: 28px;
+}
+
+.inverted {
+    background-color: navy;
+    color: beige;
+    font-weight: bold;
+}
+
+.fancy {
+    background-color: lightcoral;
+}
