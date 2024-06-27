@@ -4,9 +4,9 @@ This set of exercises with CSS is to develop the major foundational skills to ad
 
 1. CSS Methods
 2. Selectors
-    a. Class ID selectors
-    b. Group selectors
-    c. Chain selectors
+    - Class ID selectors
+    - Group selectors
+    - Chain selectors
 3. Descendent Combinator
 
 These problems are part of the Foundations curriculum of The Odin Project.
