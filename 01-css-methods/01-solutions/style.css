@@ -1,0 +1,12 @@
+/*
+This css file models the external CSS method where this statement -<link rel="stylesheet" href="style.css">
+ - in index.html enables style declaration rules to be imposed on HTML elements. The rel attribute specifies
+the relationship between the HTML and CSS files, while href gives the location of the file
+*/
+div {
+    background-color: red;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}

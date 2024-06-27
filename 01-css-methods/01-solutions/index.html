@@ -1,0 +1,41 @@
+<!--
+This HTML file is modified from the problem file to link to the style.css file modelling the external CSS
+method demonstrated in the first div tag in the body. It also demonstrates the use of internal and inline
+CSS methods.
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Methods for adding CSS</title>
+        <!--The link tag links the file to style.css and the rel attribute shows the relationship between
+        the linked files-->
+        <link rel="stylesheet" href="style.css">
+        <!--
+        The style tag contains all style declarations for elements declared in the body.
+        This is the inline method for adding unique styles to a single page of a website
+        -->
+        <style>
+            p {
+                background-color: green;
+                color: white;
+                font-size: 18px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>Style me via the external method!</div>
+        <p>I would like to be styled with the internal method, please.</p>
+        <!--
+        This is the inline method of adding style declarations directly to HTML elements.
+        No selectors are used here as styles are added to the div tag.
+        This method is generally only decent for adding a unique style to a single element.
+            - It can make it messy
+            - Many repetitions can bloat file
+            - Inline CSS overrides external and internal CSS methods
+        -->
+        <button style="background-color: orange; font-size: 18px;">Inline Method</button style>
+    </body>
+</html>
