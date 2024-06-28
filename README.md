@@ -8,5 +8,6 @@ This set of exercises with CSS is to develop the major foundational skills to ad
     - Group selectors
     - Chain selectors
 3. Descendent Combinator
+4. Cascade Fix
 
 These problems are part of the Foundations curriculum of The Odin Project.
