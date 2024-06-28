@@ -1,0 +1,11 @@
+/*
+Only the p elements that are descendants of the div element should have a yellow background, red text, 
+a font size of 20px, and center aligned. Here text elements inside the container class with the div tag
+are styled, while other text elements are ignored.
+*/
+.container .text {
+    background-color: yellow;
+    color: #E00000;
+    font-size: 20px;
+    text-align: center;
+  }
